@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# 忽略虚拟环境文件夹
+.venv/
+venv/
+.idea/
+
+# 忽略缓存文件
+__pycache__/
+*.pyc
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略密钥文件 (如果有)
+.env
